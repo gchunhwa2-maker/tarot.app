@@ -19,3 +19,5 @@ Local output: dist/android-builds/. The GitHub workflow can produce equivalent v
 - SHA-256: 5e569587b34c6d35f7566fc3fba8f162fa8e365e948793e170b8960735a67367
 
 Developer/contact update: norakim / nora7601@naver.com. Verified inside the rebuilt APK and unsigned AAB privacy page.
+
+GitHub Actions follow-up: the initial remote jobs failed at android-actions/setup-android@v3 before application compilation or artifact upload. Workflow now uses the Android SDK preinstalled on the documented ubuntu-24.04 runner, with explicit SDK 36 / build-tools 35 checks and a supported sdkmanager fallback. Remote result must be checked after the new push.
