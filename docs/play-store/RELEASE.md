@@ -5,12 +5,14 @@
 웹주소로 접속하지 않고 앱 안의 HTML/JS 및 카드 이미지 78장을 사용하는 Capacitor Android 프로젝트입니다. 현재 여섯 스프레드, 셔플, 중복 없는 추첨, 카드 도감, 로컬 리딩 기록, 사용자 지정 이미지 선택을 포함합니다. 기본 리딩에는 서버나 로그인이 필요 없습니다.
 
 - 앱 이름: 달의 안부
+- 개발자 표시 이름: norakim
+- 문의 이메일: nora7601@naver.com
 - 애플리케이션 ID: `com.gchunhwa2maker.moonlittarot`
 - 버전: 1.0.0 / versionCode 1
 - Android 7.0(API 24) 이상, compile/target SDK 36
 - 개발 도구: Node.js 22 이상, npm, Python 3, JDK 21, Android SDK 36
 - 의존성 버전은 package-lock.json에 고정합니다.
-- 공개 전 앱 ID와 개발자 표시 이름을 확정하세요. 출시 후 앱 ID를 바꾸면 별개의 앱이 됩니다.
+- 공개 전 앱 ID를 확정하세요. 개발자 표시 이름은 norakim으로 지정했습니다. 출시 후 앱 ID를 바꾸면 별개의 앱이 됩니다.
 
 ## 빌드
 
@@ -48,7 +50,7 @@ npm run android:bundle
 ## 출시 전에 사용자에게 필요한 것
 
 1. Google Play Console 개발자 계정, 본인/조직 및 기기 인증. 계정 유형에 따라 콘솔이 요구하는 비공개 테스트를 완료합니다.
-2. 앱 운영자 표시 이름, 문의 이메일, 공개 HTTPS 개인정보처리방침 URL. 현재 privacy.html은 운영자/문의 정보를 확정하지 않은 초안이며 아직 공개 게시하지 않았습니다.
+2. 공개 HTTPS 개인정보처리방침 URL과 최종 검토. privacy.html에 운영자 norakim 및 문의 이메일 nora7601@naver.com을 반영했으며, 아직 공개 게시하지 않았습니다.
 3. 업로드 키와 Play App Signing 설정. 키의 생성·보관은 사용자 소유로 진행합니다.
 4. 실기기 테스트, 최종 스크린샷과 스토어 이미지, 콘텐츠 등급/대상 연령/데이터 보안/광고 여부 설문.
 5. 실제 포함한 카드 이미지의 출처·권리 검토 완료. 현재 원본 RWS 그림은 기존 GitHub 출처이며 Wikimedia 개별 파일 확인 작업은 미완료입니다. 관련 기록: assets/cards/SOURCES.md. 위키미디어에서 검증됐다고 기재하지 마세요.

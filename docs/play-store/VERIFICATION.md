@@ -12,8 +12,10 @@ Local output: dist/android-builds/. The GitHub workflow can produce equivalent v
 
 ## moonlit-debug.apk
 - Bytes: 12196454
-- SHA-256: 0c5807d22089e40cc455c33301de7f974360f49dbd49cd680ecbf455288b16d1
+- SHA-256: 631dfa2abed2253d7c460f0783dfc52ac7309663a1e1fe8aff67aa4715ec2c25
 
 ## moonlit-release-UNSIGNED.aab
-- Bytes: 10777348
-- SHA-256: b29b41534380dec2fa7954bd81efb21c5bb1ad0183be4051d65211fecb5c5094
+- Bytes: 10777380
+- SHA-256: 5e569587b34c6d35f7566fc3fba8f162fa8e365e948793e170b8960735a67367
+
+Developer/contact update: norakim / nora7601@naver.com. Verified inside the rebuilt APK and unsigned AAB privacy page.
