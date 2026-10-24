@@ -1,0 +1,11 @@
+{
+  "appId": "com.gchunhwa2maker.moonlittarot",
+  "appName": "달의 안부",
+  "webDir": "dist/android-web",
+  "backgroundColor": "#17221e",
+  "android": {
+    "backgroundColor": "#17221e",
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  }
+}
