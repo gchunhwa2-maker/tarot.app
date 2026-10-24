@@ -90,6 +90,8 @@ const minorReadings = [
 ];
 export const deck=[...majors.map(([name,english,symbol,keyword,meaning,advice],i)=>({id:`major-${i}`,name,english,symbol,keyword,meaning,advice,number:i,group:'major'})),...suits.flatMap(([suit,en,symbol],s)=>ranks.map((rank,i)=>{const [keyword,meaning,advice]=minorReadings[s][i];return {id:`minor-${s}-${i}`,name:`${suit} ${rank}`,english:`${rankEn[i]} of ${en}`,symbol,keyword,meaning,advice,number:i+1,group:String(s)};}))];
 export const spreads={
+ single:{name:'오늘은 한 장',positions:['오늘의 메시지']},
+ celtic:{name:'켈틱 크로스 · 10장',positions:['1 · 현재 상황','2 · 장애물 / 교차하는 영향','3 · 근본 / 무의식','4 · 지나온 과거','5 · 의식 / 목표','6 · 가까운 미래','7 · 나의 태도','8 · 주변 환경','9 · 희망과 두려움','10 · 예상 흐름']},
  three:{name:'시간의 흐름 · 3장',positions:['과거','현재','앞으로의 흐름']},
  four:{name:'상황과 해답 · 4장',positions:['현재 상황','장애물','조언','예상 흐름']},
  comparison:{name:'두 갈래 선택 · 7장',positions:['왼쪽 · 상황','왼쪽 · 조언','왼쪽 · 흐름','오른쪽 · 상황','오른쪽 · 조언','오른쪽 · 흐름','가운데 · 핵심 조언']},
